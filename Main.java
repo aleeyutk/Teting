@@ -15,6 +15,12 @@ public class Main {
         teacher1.teachCourse("Algebra");
         teacher1.prepareMaterials();
 
+        Teacher teacher2 = new Teacher("prof. manga", 2003, "English");
+        teacher2.setYearsExperience(6);
+        teacher2.teachCourse("GNS");
+        teacher2.prepareMaterials();
+
+
 
         // Test Course
         CourseOffering course1 = new CourseOffering();
